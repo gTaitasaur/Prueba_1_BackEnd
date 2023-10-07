@@ -26,5 +26,13 @@ urlpatterns = [
     path('productos/electronica/', views.electronica),
     path('productos/juguetes/', views.juguetes),
     path('productos/ropa/', views.ropa),
-    path('electronica/desc_computador/', views.desc_computador),
-]
+    path('productos/electronica/desc_computador/', views.desc_computador),
+    path('productos/electronica/desc_consola/', views.desc_consola),
+    path('productos/electronica/desc_parlantes/', views.desc_parlantes),
+    path('productos/juguetes/desc_juguetebebe/', views.desc_juguetebebe),
+    path('productos/juguetes/desc_jugueteagua/', views.desc_jugueteagua),
+    path('productos/juguetes/desc_juguetepokemon/', views.desc_juguetepokemon),
+    path('productos/ropa/desc_ropainvierno/', views.desc_ropainvierno),
+    path('productos/ropa/desc_ropaverano/', views.desc_ropaverano),
+    path('productos/ropa/desc_ropacalzado/', views.desc_ropacalzado),
+    ]
