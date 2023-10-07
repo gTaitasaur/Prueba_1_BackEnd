@@ -26,4 +26,4 @@ def ropa(request):
 
 #Descripcion
 def desc_computador(request):
-    return render(request, 'electronica_desc/desc_computador.html')
+    return render(request, 'vistas/electronica_desc/desc_computador.html')
